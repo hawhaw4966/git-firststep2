@@ -13,7 +13,7 @@ async function updateData(newData){
 async function getRequest() {
   let response;
   try {
-    response = await axios.get('https://transit.yahoo.co.jp/traininfo/detail/339/0git /');
+    response = await axios.get('https://transit.yahoo.co.jp/traininfo/detail/339/0/');
     let html = response.data;
     html = html.replace(/\r?\n/g,""); //整形1: 改行などを削除して整形しやすくする
     let unko = html.match(/id="mdServiceStatus">(.*?)<\/div>/)[1];
