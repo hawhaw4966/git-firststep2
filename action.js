@@ -18,7 +18,7 @@ let config = {
         'Authorization': 'Bearer ' + LINE_NOTIFY_TOKEN
     },
     data: qs.stringify({
-        message: 'ProtoOut Studioからの通知だよー！',
+        message: 'katoからの通知だよー！,https://www.olympus-imaging.jp/product/compact/1/sample/images/index_img_04_thumb.jpg',
     })
 }
 
