@@ -1,0 +1,23 @@
+{
+  "name": "01-06-3git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hawhaw4966/git-firststep2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hawhaw4966/git-firststep2/issues"
+  },
+  "homepage": "https://github.com/hawhaw4966/git-firststep2#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
